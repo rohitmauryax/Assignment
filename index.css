@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+.header {
+  background: #fff;
+}
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
+}
+.upper-head {
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  display: flex;
+}
+.ecommerce {
+  display: flex;
+}
+.login {
+  display: flex;
+}
+.cart {
+  display: flex;
+}
+.category ul {
+  display: flex;
+  align-items: center;
+
+  gap: 52px;
+  list-style: none;
+}
+.category ul li a {
+  color: #161d25;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-decoration: none;
+}
+.hero {
+  background: #f2f2f2;
+  height: 586px;
+}
+.hero .container {
+  display: flex;
+  gap: 114px;
+  padding-top: 46px;
+}
+.promo {
+  border-radius: 2000px;
+
+  background: rgba(244, 147, 66, 0.1);
+  display: flex;
+  align-items: center;
+  width: 301px;
+  height: 32px;
+  gap: 10px;
+}
+.text {
+  display: flex;
+  background: #f49342;
+  border-radius: 2000px;
+  align-items: center;
+  justify-content: space-around;
+  width: 61px;
+  height: 24px;
+}
+.text .cont {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+}
+.promo p {
+  color: #f49342;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+}
+.left h1 {
+  color: #161d25;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  width: 436px;
+  height: 128px;
+}
+.para {
+  color: #5a7184;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 442px;
+  height: 56px;
+}
+.search {
+  display: flex;
+  height: 56px;
+  width: 523px;
+  border-radius: 4px;
+  background: #f9fafb;
+}
+.search input {
+  margin-left: 18px;
+  width: 287px;
+  height: 54px;
+  background: #f9fafb;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.search ::placeholder {
+  color: #959ead;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.search p {
+  color: #161d25;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  width: auto;
+  margin: auto;
+}
+.search img {
+  width: 7.92px;
+  height: 13.2px;
+  margin: auto;
+}
+.search button {
+  background-image: url(./public/search.svg);
+  width: 44px;
+  height: 44px;
+  border: none;
+  margin: auto;
+}
+.suggest {
+  display: flex;
+  gap: 5px;
+}
+.suggest h4 {
+  color: #161d25;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.suggest p {
+  color: #959ead;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.right img {
+  height: 415px;
+  width: 449px;
+}
