@@ -77,9 +77,9 @@ body {
   align-items: center;
   gap: 42px;
   list-style: none;
+  justify-content: space-between;
 }
-.category ul li {
-}
+
 .category ul li a {
   color: #161d25;
   text-align: center;
@@ -227,7 +227,7 @@ body {
 .green-box {
   border-radius: 8px;
   width: 255px;
-  height: 284px;
+  height: 307px;
   background: rgba(80, 184, 60, 0.1);
 }
 .green-box .title {
@@ -270,8 +270,32 @@ body {
 .contain button p {
   float: right;
 }
+#item {
+  width: 126px;
+  height: 50px;
+  padding: 0 20px;
+}
+#item p {
+  color: #161d25;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+}
 .wrapper {
   height: 399px;
+}
+#sale-cards {
+  display: flex;
+  gap: 30px;
+}
+#sale-box {
+  display: flex;
+  flex-direction: column;
 }
 .sale-cards {
   border-radius: 8px;
@@ -288,17 +312,21 @@ body {
   line-height: 20px;
   letter-spacing: 0.2px;
 }
+#price {
+  display: flex;
+  justify-content: space-between;
+}
 .p1 {
-  float: left;
   color: #5c6ac4;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
-  margin: auto;
+  margin: 0px;
+  /* margin: auto; */
 }
 .p2 {
-  margin: auto;
-  /* float: right; */
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #de3618;
   text-align: center;
   font-family: Roboto;
@@ -336,6 +364,18 @@ body {
   height: 40px;
   background: #fff;
   border-radius: 4px;
+}
+.percent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.percent-p {
+  color: #5a7184;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
 }
 /* popular products */
 
@@ -530,12 +570,42 @@ body {
   border-radius: 4px;
   padding: 30px 20px;
 }
+#card-p {
+  margin-top: 24px;
+  color: #161d25;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
 .card .profile {
   display: flex;
   justify-content: space-between;
 }
 .profile .p {
   margin-top: 0px;
+}
+#profile-name {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#profile-name h2 {
+  color: #161d25;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: 0.2px;
+}
+#profile-name p {
+  color: #5a7184;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
 }
 .card p {
   color: #161d25;
@@ -606,6 +676,7 @@ body {
 }
 .content-footer {
   display: flex;
+  justify-content: space-between;
   margin: 5% 0;
 }
 .elma-footer {
