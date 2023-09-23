@@ -242,6 +242,14 @@ body {
   line-height: 32px;
   letter-spacing: 0.2px;
 }
+#title-h4 {
+  color: #161d25;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+}
 .green-box .title p {
   color: #5a7184;
   font-family: Roboto;
@@ -388,7 +396,15 @@ body {
   height: 516px;
   margin: 40px auto;
 }
-
+#top-heading h2 {
+  color: #161d25;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
 .popular-products .container #top-heading {
   display: flex;
   flex-direction: row;
@@ -506,12 +522,12 @@ body {
 }
 
 .prod1 #product-description p {
-  color: #161d25;
+  color: #5c6ac4;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 22px; /* 137.5% */
+  line-height: 20px;
 }
 
 .prod1 #product-description #review {
