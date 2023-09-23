@@ -92,7 +92,11 @@
               can custom order if you want. Just write a note.
             </p>
             <div class="search">
-              <input type="text" placeholder="I wanna buy… " />
+              <input
+                type="text"
+                placeholder="I wanna buy… "
+                id="search-input"
+              />
               <p>All Categories</p>
               <img src="./public/dropdown.svg" alt="" />
               <button>
@@ -175,39 +179,103 @@
       </div>
       <div class="popular-products">
         <div class="container">
-          <h2>Recent Popular Products</h2>
-          <button>View All</button>
+          <div id="top-heading">
+            <h2>Recent Popular Products</h2>
+            <button id="view-all">View All</button>
+          </div>
           <div class="product">
             <div class="prod1">
+              <div class="color-hover"></div>
+              <div class="hover-effect">
+                <div class="top-hover">
+                  <p>SALE</p>
+                  <img src="./public/loveHover.svg" id="loveHover" />
+                </div>
+                <div class="viewButtons">
+                  <img src="./public/viewHover.svg" id="viewHover" />
+                  <img src="./public/cartHover.svg" id="cartHover" />
+                </div>
+              </div>
               <img src="./public/images/mask.png" alt="" />
-              <div class="title">
-                <h4>Airpods 2nd Gen</h4>
-                <p>$1,725.00</p>
-                <img src="./public/rating.svg" alt="" />
+              <div class="product-details">
+                <div class="title">
+                  <h4>Airpods 2nd Gen</h4>
+                </div>
+                <div id="product-description">
+                  <p>$1,725.00</p>
+                  <img src="./public/rating.svg" alt="" id="review" />
+                </div>
               </div>
             </div>
             <div class="prod1">
+              <div class="color-hover"></div>
+              <div class="hover-effect">
+                <div class="top-hover">
+                  <p>SALE</p>
+                  <img src="./public/loveHover.svg" id="loveHover" />
+                </div>
+                <div class="viewButtons">
+                  <img src="./public/viewHover.svg" id="viewHover" />
+                  <img src="./public/cartHover.svg" id="cartHover" />
+                </div>
+              </div>
               <img src="./public/images/mask2.png" alt="" />
-              <div class="title">
-                <h4>Garmin Watch Fit X</h4>
-                <p>$1,725.00</p>
-                <img src="./public/rating.svg" alt="" />
+              <div class="product-details">
+                <div class="title">
+                  <h4>Garmin Watch Fit X</h4>
+                </div>
+                <div id="product-description">
+                  <p>$1,725.00</p>
+                  <img src="./public/rating.svg" alt="" id="review" />
+                </div>
               </div>
             </div>
             <div class="prod1">
+              <div class="color-hover"></div>
+              <div class="hover-effect">
+                <div class="top-hover">
+                  <p>SALE</p>
+                  <img src="./public/loveHover.svg" id="loveHover" />
+                </div>
+                <div class="viewButtons">
+                  <img src="./public/viewHover.svg" id="viewHover" />
+                  <img src="./public/cartHover.svg" id="cartHover" />
+                </div>
+              </div>
+
               <img src="./public/images/mask3.png" alt="" />
-              <div class="title">
-                <h4>Women Yellow Turtleneck</h4>
-                <p>$1,725.00</p>
-                <img src="./public/rating.svg" alt="" />
+              <div class="product-details">
+                <div class="title">
+                  <h4>Women Yellow Turtleneck</h4>
+                </div>
+                <div id="product-description">
+                  <p>$1,725.00</p>
+                  <img src="./public/rating.svg" alt="" id="review" />
+                </div>
               </div>
             </div>
             <div class="prod1">
+              <div class="color-hover"></div>
+              <div class="hover-effect">
+                <div class="top-hover">
+                  <p>SALE</p>
+                  <img src="./public/loveHover.svg" id="loveHover" />
+                </div>
+                <div class="viewButtons">
+                  <img src="./public/viewHover.svg" id="viewHover" />
+                  <img src="./public/cartHover.svg" id="cartHover" />
+                </div>
+              </div>
+
               <img src="./public/images/mask4.png" alt="" />
-              <div class="title">
-                <h4>Harman Kardon Speaker</h4>
-                <p>$1,725.00</p>
-                <img src="./public/rating.svg" alt="" />
+              <div class="product-details">
+                <div class="title">
+                  <h4>Harman Kardon Speaker</h4>
+                </div>
+                <div id="product-description">
+                  <p>$1,725.00</p>
+                  <img src="./public/rating.svg" alt="" id="review" />
+                </div>
               </div>
             </div>
           </div>
@@ -215,13 +283,15 @@
       </div>
       <div class="testimonial">
         <div class="container">
-          <div class="head">
-            <h1>Customer Review</h1>
-            <p>Some customer review on Elma E-commerce</p>
-          </div>
-          <div class="btn">
-            <img src="./public/leftarrow.svg" alt="" />
-            <img src="./public/rightarrow.svg" alt="" />
+          <div class="top-heading">
+            <div class="head">
+              <h1>Customer Review</h1>
+              <p>Some customer review on Elma E-commerce</p>
+            </div>
+            <div class="btn">
+              <img src="./public/leftarrow.svg" alt="" />
+              <img src="./public/rightarrow.svg" alt="" />
+            </div>
           </div>
           <div class="cards">
             <div class="card">
